@@ -1,0 +1,69 @@
+THE MORTO - ORIGINAL PREVIEW ART (v1.3)
+
+The six runtime backgrounds use the actual generated illustration previews
+shown in this conversation. They have been exported directly from those
+images at their original resolution, without redrawing the art, except the requested camera-angle edit to the side yard. All exterior
+views show night. The menu and supplied Morto drawings are retained.
+
+PREVIEWS IN USE:
+living.jpg - Moonlit ink living room.png
+hallway.jpg - Moonlit Hallway with a Shadowed Doorway.png
+kitchen.jpg - Powerless Kitchen, Sealed Door.png
+fence.jpg - Midnight garden beneath a crescent moon.png
+sideyard.jpg - High-mounted side-yard surveillance camera (edited from the original preview)
+porch.jpg - Moonlit Porch at Midnight.png
+
+The lossless original PNGs and an alternate living-room preview are included
+in source-art/generated-backgrounds. The source ledger records image identity
+and hashes. Runtime JPEG conversion uses quality 96 without chroma subsampling.
+No substitute SVG environment drawings are used in this revision.
+
+LAYOUT REFERENCE PHOTOS:
+
+LIVING.JPG
+Interior Design Of A House
+Photographer: Viaceslav Kat
+Source: https://www.pexels.com/photo/interior-design-of-a-house-1571460/
+License: Pexels License
+Terms: https://www.pexels.com/license/
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.
+
+HALLWAY.JPG
+Home Hallway Interior Design
+Photographer: Max Vakhtbovych
+Source: https://www.pexels.com/photo/home-hallway-interior-design-7546558/
+License: Pexels License
+Terms: https://www.pexels.com/license/
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.
+
+KITCHEN.JPG
+Modern kitchen interior and corridor with entrance door in house
+Photographer: Max Vakhtbovych
+Source: https://www.pexels.com/photo/modern-kitchen-interior-and-corridor-with-entrance-door-in-house-6436742/
+License: Pexels License
+Terms: https://www.pexels.com/license/
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.
+
+FENCE.JPG
+Grassy backyard with tall trees and wooden fence
+Photographer: Brett Jordan
+Source: https://unsplash.com/photos/grassy-backyard-with-tall-trees-and-wooden-fence-kQxl6oRKRg4
+License: Unsplash License
+Terms: https://unsplash.com/license
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.
+
+SIDEYARD.JPG
+Path Between House and Fence
+Photographer: Alfo Medeiros
+Source: https://www.pexels.com/photo/path-between-house-and-fence-11742500/
+License: Pexels License
+Terms: https://www.pexels.com/license/
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.
+
+PORCH.JPG
+Porch of House
+Photographer: hi room
+Source: https://www.pexels.com/photo/porch-of-house-17240698/
+License: Pexels License
+Terms: https://www.pexels.com/license/
+Use: composition reference for the generated illustrated preview; this photograph is not the runtime texture.

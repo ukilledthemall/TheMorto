@@ -1,0 +1,124 @@
+{
+  "setting": "The original illustrated house previews, directly installed; all outdoor views show night.",
+  "assets": [
+    {
+      "file": "living.jpg",
+      "title": "Interior Design Of A House",
+      "creator": "Viaceslav Kat",
+      "source_url": "https://www.pexels.com/photo/interior-design-of-a-house-1571460/",
+      "image_url": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "modifications": "Original preview exported at full resolution as a high-quality JPEG without redrawing or changing the composition. Dynamic flashlight darkness is added during gameplay.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "Moonlit ink living room.png",
+      "source_png": "source-art/generated-backgrounds/living.png",
+      "source_library_file_id": "libfile_79be2e918cdc8191b71a9f824fc1151d"
+    },
+    {
+      "file": "hallway.jpg",
+      "title": "Home Hallway Interior Design",
+      "creator": "Max Vakhtbovych",
+      "source_url": "https://www.pexels.com/photo/home-hallway-interior-design-7546558/",
+      "image_url": "https://images.pexels.com/photos/7546558/pexels-photo-7546558.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "modifications": "Original preview exported at full resolution as a high-quality JPEG without redrawing or changing the composition. Dynamic flashlight darkness is added during gameplay.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "Moonlit Hallway with a Shadowed Doorway.png",
+      "source_png": "source-art/generated-backgrounds/hallway.png",
+      "source_library_file_id": "libfile_8c959ecae6308191b236fbbaca5cbbc2"
+    },
+    {
+      "file": "kitchen.jpg",
+      "title": "Modern kitchen interior and corridor with entrance door in house",
+      "creator": "Max Vakhtbovych",
+      "source_url": "https://www.pexels.com/photo/modern-kitchen-interior-and-corridor-with-entrance-door-in-house-6436742/",
+      "image_url": "https://images.pexels.com/photos/6436742/pexels-photo-6436742.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "modifications": "Original preview exported at full resolution as a high-quality JPEG without redrawing or changing the composition. Dynamic flashlight darkness is added during gameplay.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "Powerless Kitchen, Sealed Door.png",
+      "source_png": "source-art/generated-backgrounds/kitchen.png",
+      "source_library_file_id": "libfile_020829f53d588191baa44e9c124a9bb8"
+    },
+    {
+      "file": "fence.jpg",
+      "title": "Grassy backyard with tall trees and wooden fence",
+      "creator": "Brett Jordan",
+      "source_url": "https://unsplash.com/photos/grassy-backyard-with-tall-trees-and-wooden-fence-kQxl6oRKRg4",
+      "image_url": "https://images.unsplash.com/photo-1763657236597-e077b187afe4",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "modifications": "Original preview exported at full resolution as a high-quality JPEG without redrawing or changing the composition. Dynamic flashlight darkness is added during gameplay.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "Midnight garden beneath a crescent moon.png",
+      "source_png": "source-art/generated-backgrounds/fence.png",
+      "source_library_file_id": "libfile_8e82767875f481919a37dc30c8cfdd5a"
+    },
+    {
+      "file": "sideyard.jpg",
+      "title": "Path Between House and Fence",
+      "creator": "Alfo Medeiros",
+      "source_url": "https://www.pexels.com/photo/path-between-house-and-fence-11742500/",
+      "image_url": "https://images.pexels.com/photos/11742500/pexels-photo-11742500.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "modifications": "Built-in image edit changes the view to a high camera under the house eaves, angled down the same illustrated nighttime passage.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "High-mounted side-yard surveillance camera",
+      "source_png": "source-art/generated-backgrounds/sideyard.png"
+    },
+    {
+      "file": "porch.jpg",
+      "title": "Porch of House",
+      "creator": "hi room",
+      "source_url": "https://www.pexels.com/photo/porch-of-house-17240698/",
+      "image_url": "https://images.pexels.com/photos/17240698/pexels-photo-17240698.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "modifications": "Original preview exported at full resolution as a high-quality JPEG without redrawing or changing the composition. Dynamic flashlight darkness is added during gameplay.",
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_medium": "Generated ink-and-painted illustration preview",
+      "night_scene": true,
+      "photograph_used_as": "composition reference for the illustrated preview",
+      "preview_title": "Moonlit Porch at Midnight.png",
+      "source_png": "source-art/generated-backgrounds/porch.png",
+      "source_library_file_id": "libfile_2f0512d13658819181ef3bc43df217f5"
+    }
+  ]
+}

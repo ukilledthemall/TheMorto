@@ -1,0 +1,95 @@
+{
+  "production": "Built-in image generation using the supplied Morto cutout as identity reference and each environment as perspective/lighting reference. The user-selected tilted widescreen screamer is now used.",
+  "variants": [
+    {
+      "location": "living",
+      "file": "morto_living.png",
+      "source": "source-art/morto-variants/morto_living.png",
+      "sha256": "abb1c44b8a80cc8730005c8a0cb1808225afe3be13cce7a812c1e41a2842e3bd",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "prompt_pose": "Living room: view from normal seated-to-standing human height, looking across the living room toward the dark opening beside the stairs on the right. Morto is standing three-quarter front with his torso turned slightly toward the left of the image, one hoof a little ahead of the other, head turned toward the viewer, fingers hanging loose. A restrained looming pose, not the reference's perfectly symmetrical front pose."
+    },
+    {
+      "location": "hallway",
+      "file": "morto_hallway.png",
+      "source": "source-art/morto-variants/morto_hallway.png",
+      "sha256": "8b941a805d644cbbe317aa86b0f17896e408d8c199859d27941923ea8fe08535",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "prompt_pose": "Hallway: full height human-eye-level view down a narrow hall. Morto is taking one slow step out of the right doorway, his thin body angled three-quarter toward image-left while his long skull turns back to stare directly at the viewer. Slight sideways head tilt, one long clawed hand slightly extended. Both hooves visible."
+    },
+    {
+      "location": "kitchen",
+      "file": "morto_kitchen.png",
+      "source": "source-art/morto-variants/morto_kitchen.png",
+      "sha256": "b7d8957f5a004154dd53cbdc5da910371a6d782f6fec20f740c91e5c4221fac8",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "prompt_pose": "Kitchen: eye-level full height view across an ordinary dark kitchen. Morto is standing three-quarter side-on toward image-right, upper body leaned forward a little, one arm reaching forward at waist height and the other hanging, skull turned toward the viewer. Both tall skeletal legs and hooves visible. Distinct from the other two interior views."
+    },
+    {
+      "location": "fence",
+      "file": "morto_fence.png",
+      "source": "source-art/morto-variants/morto_fence.png",
+      "sha256": "61734c341d1664b945d023d700e6f50959e5cfaed3ccaa506798d33373689d43",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "prompt_pose": "Garden fence camera: surveillance viewpoint from a modest elevated height looking across a dark back garden. Morto is standing still, full height, mostly SIDE PROFILE toward image-left, skull rotated a little toward the camera in an unnatural stare, both arms low, silhouette narrow against a garden fence. He should look far away and unaware of being watched, not a symmetrical front portrait."
+    },
+    {
+      "location": "sideyard",
+      "file": "morto_sideyard.png",
+      "source": "source-art/morto-variants/morto_sideyard.png",
+      "sha256": "e4f93f0bc3795f429c7c173d8e394c3a9b7ee53302eeaf78683b120eb5a1d347",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt_pose": "Side-yard camera: high camera fixed 3 meters up under the house eaves at image-right, looking steeply down and diagonally along a path. Render Morto in a clear VIEW FROM ABOVE with the TOP OF HIS HAT and shoulders visible, natural foreshortening (not a stretched flat frontal figure). He walks toward the nearer part of the path at image-bottom-left, skull looks partly upward at the lens, both long arms hanging, both hooves visible below. Match the downward perspective of the second input background."
+    },
+    {
+      "location": "porch",
+      "file": "morto_porch.png",
+      "source": "source-art/morto-variants/morto_porch.png",
+      "sha256": "e86462bd817046908d4ef1d2e8704a647838301092216360fcf30d474cbf2a5e",
+      "size": [
+        941,
+        1672
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "prompt_pose": "Porch camera: camera mounted on a porch corner slightly above head height, looking toward the house door. Morto stands full height beside the door, his back and left shoulder mostly toward the camera, one long hand raised toward the door, skull turned over his shoulder to look at the lens. Three-quarter rear body view, both hooves visible. Distinct rear-facing silhouette."
+    }
+  ]
+}

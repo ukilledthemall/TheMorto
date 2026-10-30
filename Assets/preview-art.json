@@ -1,0 +1,108 @@
+{
+  "revision": "v1.3",
+  "production_method": "Original generated illustration previews shown in this conversation, recovered and installed directly",
+  "backgrounds": [
+    {
+      "preview_title": "Moonlit ink living room.png",
+      "library_file_id": "libfile_79be2e918cdc8191b71a9f824fc1151d",
+      "source_file": "source-art/generated-backgrounds/living.png",
+      "source_sha256": "be6f1395eb5153876c983eb4709a655627c8e0ed429cbdb34dd34bb7c46fba86",
+      "runtime_file": "living.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "7a74a49031b9cb85c19668c5eedd397b14bd66f71d42b9ad9282cd45b175a788"
+    },
+    {
+      "preview_title": "Moonlit Hallway with a Shadowed Doorway.png",
+      "library_file_id": "libfile_8c959ecae6308191b236fbbaca5cbbc2",
+      "source_file": "source-art/generated-backgrounds/hallway.png",
+      "source_sha256": "b47fb05b28ee8bb295a0d9dbbbec060872be38ccc428b9fbfab181803b69fffc",
+      "runtime_file": "hallway.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "d52d8381b1dd83b0691fd89c8f192c3a930c558cfb68502a0061482254f43542"
+    },
+    {
+      "preview_title": "Powerless Kitchen, Sealed Door.png",
+      "library_file_id": "libfile_020829f53d588191baa44e9c124a9bb8",
+      "source_file": "source-art/generated-backgrounds/kitchen.png",
+      "source_sha256": "ad3b71a34f0cfbf91ea5e357fe9f77ec48f298d80552979a06a11aea17b78466",
+      "runtime_file": "kitchen.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "b82a13407d4935cfcb87da5d4c4abe91dce39bfcbc017629239ace3064f1bee7"
+    },
+    {
+      "preview_title": "Midnight garden beneath a crescent moon.png",
+      "library_file_id": "libfile_8e82767875f481919a37dc30c8cfdd5a",
+      "source_file": "source-art/generated-backgrounds/fence.png",
+      "source_sha256": "e47e0381ded63df8a65c121de60d2a0ac09ea75136fda5070b78bcc63707bf1d",
+      "runtime_file": "fence.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "e93622c9038703145191bcb9e21762f7a0361567e60853d72c2c15799d50d036"
+    },
+    {
+      "preview_title": "High-mounted side-yard surveillance camera",
+      "source_file": "source-art/generated-backgrounds/sideyard.png",
+      "source_sha256": "976aa2be28f42d5d7e2688b878e3f091408fd5e05ba6bb6d3522ed902c2711cb",
+      "runtime_file": "sideyard.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "f12b9b0be02939852995114535cd245203701c18728b0a614fb399ca970f0e6b",
+      "replaces_source_library_file_id": "libfile_240298a8a9248191ab118447ad682681",
+      "edit_method": "Built-in image generation: camera mounted high under house eaves, looking diagonally down the side path. Same nighttime illustration style."
+    },
+    {
+      "preview_title": "Moonlit Porch at Midnight.png",
+      "library_file_id": "libfile_2f0512d13658819181ef3bc43df217f5",
+      "source_file": "source-art/generated-backgrounds/porch.png",
+      "source_sha256": "fe99e583b8b69748adb7b706bba01292a3c96ac9b9bcb9c035618dda0deac0e8",
+      "runtime_file": "porch.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "a01900fda96f41c35210f5f706d8d009db15feedee00429b768843e33eec842b"
+    }
+  ],
+  "alternatives": [
+    {
+      "preview_title": "Unlit Living Room at Night.png",
+      "library_file_id": "libfile_90afdfbaa488819180ce8293feb7c824",
+      "source_file": "source-art/generated-backgrounds/living-alternative.png",
+      "source_sha256": "78ef77fc85e25ec07b4184633cb372df397992772b365dc09468d9584c66a396",
+      "runtime_file": "living-alternative.jpg",
+      "night_scene": true
+    },
+    {
+      "preview_title": "Midnight Side Path by the House.png",
+      "library_file_id": "libfile_240298a8a9248191ab118447ad682681",
+      "source_file": "source-art/generated-backgrounds/sideyard-groundlevel-original.png",
+      "source_sha256": "d5c782a63ee20cca86de9b21e01194f881de0c5edee9037d44ab99cc42137a72",
+      "runtime_file": "sideyard.jpg",
+      "night_scene": true,
+      "runtime_size": [
+        1672,
+        941
+      ],
+      "runtime_sha256": "81bf57ec33fa81ce4687b79f2b8af602dc7e86f1fb6376cb988acadf70c0e3a8"
+    }
+  ]
+}

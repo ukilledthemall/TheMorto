@@ -1,0 +1,21 @@
+{
+  "path": "/workspace/scratch/225e490b9c3d/morto/assets/morto.png",
+  "format": "PNG",
+  "mode": "RGBA",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparent_pixels": 1133725,
+  "opaque_pixels": 1363,
+  "bbox": [
+    0,
+    21,
+    911,
+    1631
+  ]
+}

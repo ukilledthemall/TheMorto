@@ -1,0 +1,138 @@
+THE MORTO v1.8 — DARK HOUSE
+
+UNITY: UPDATE AN EXISTING PROJECT
+Exit Play mode. Import The-Morto-Unity.unitypackage with all files selected.
+Wait for compilation. For an existing game scene, use The Morto > Apply Balance To Current Scene,
+then save the scene. This preserves your assigned MP3 and other scene edits.
+You can also use The Morto > Create Playable Scene for a fresh scene.
+Use the NEW scene it creates: an old scene can retain old tuning values.
+The importer now converts all artwork to 2D textures before loading it.
+Open Game view, choose 16:9, then Play. Focusing the Game view enables controls.
+The Morto > Run Logic Checks tests the actual C# gameplay model.
+The Unity Editor was not available in the build environment; engine rendering,
+input and importing must still be checked locally. The pure C# model was
+compiled and tested with Mono. Browser behavior is tested separately.
+
+BROWSER
+Open The-Morto.html in Chrome, Edge or Firefox. The game works offline.
+New Game starts Night 1. Continue keeps the latest unlocked night in this browser.
+
+THE FLASHLIGHT DOES NOT REPEL OR STUN
+The house is completely black with the flashlight off. Aim with the mouse and
+hold F to reveal a limited circular area. Light only lets you see Morto.
+It exposes you and draws him closer. Never hold it on to defend yourself.
+An empty battery leaves hiding and moving available.
+
+AWARENESS (v1.4 BALANCE)
+Light adds 33.6 points per second: about 3 seconds to fill from empty.
+With the light off, awareness naturally falls by 12 points per second.
+Hiding lowers it by 35 points per second; arriving in another room removes
+50 points as well. A full bar can cause one extra approach move, but no longer
+cuts your close-encounter reaction window. That bonus only rearms once the
+bar has cooled below 60%, preventing repeated penalties from tiny changes.
+
+HOOFSTEPS
+Hooves are audible ONLY when Morto moves INSIDE the house. Camera/exterior
+movement is silent. Indoor hooves have the same volume and no directional pan,
+so they tell you he is inside, not which room. There is no same-room text alert
+or special arrival sound. Make brief flashlight checks, then escape or hide.
+
+MOVEMENT, CAMERAS AND HIDING (v1.8)
+Player rooms: Living room <-> Hallway <-> Kitchen.
+The first approach still passes garden -> side path -> porch -> kitchen.
+Once indoors Morto chooses adjacent rooms randomly. The hallway can lead to
+kitchen or living room; the end rooms connect only to the hallway.
+No direct jumps between kitchen and living room.
+
+Completed hiding for 6–12 seconds while he is indoors sends him to a RANDOM
+outdoor feed, clears awareness and resets cover. A six-second outdoor pause
+plus his normal approach interval gives you time to recover before he enters.
+He continues from that outdoor position toward the porch and kitchen.
+Hooves remain indoor-only and stop immediately when he leaves the house.
+
+CAMERA SPEAKER LURE
+Open cameras, select a feed, then click PLAY SPEAKER or press L.
+It costs 6% backup power, has a 10-second cooldown and holds his outdoor
+approach for at least 5 seconds. He moves toward the selected speaker through
+adjacent outdoor locations, with time spent in each view. Choose a location
+behind him (especially the garden) to draw him away from the house.
+The lure works only outdoors; it cannot rescue you after he enters.
+It keeps working if you lower the monitor after triggering it.
+The signal is an original electronic double-beep, not a hoof sound.
+
+CHANGE SETTINGS YOURSELF
+Existing Unity scene: select the Morto root > Morto Controller > Tuning.
+Camera Drain = 1.8 (percent per second while monitor is open).
+Lure Cost = 6. Lure Cooldown = 10 seconds. Lure Hold = 5 seconds.
+Changing Camera Drain to 1.5 would be a smaller increase; 2.0 is more demanding.
+Script defaults live in Assets/TheMorto/Runtime/NightGame.cs, class NightTuning.
+Existing scenes retain Inspector values even when script defaults change.
+The Morto > Apply Balance To Current Scene applies the new defaults and
+preserves your assigned MP3; save the scene afterward.
+Browser equivalent: Browser/model.js, monitor drain dt*1.8, lure() constants.
+
+DIFFICULTY
+Survive until 6 AM. Nights last 150 / 165 / 180 seconds.
+A roll from 1 to 4 succeeds if it is <= the night number (1, 2 or 3).
+Opportunities are every 4.5 / 3.8 / 3.2 seconds. He passes every exterior camera before entering the kitchen.
+Inside he chooses randomly between adjacent rooms.
+The close-encounter window is 3.2 / 2.8 / 2.4 seconds, shortened with no battery.
+Repeated flashing is not a valid defence. Hiding forever in one room fails too.
+
+JUMPSCARE AND YOUR MP3
+The user-selected tilted widescreen skull image fills the window without
+stretching; the foreground makes a quick controlled lunge. The duration follows the chosen sound clip.
+
+Unity:
+1. Drag your MP3 into Assets/TheMorto/Audio (give it a distinct name).
+2. Select "The Morto - Select to tune gameplay and replace sounds" in Hierarchy.
+3. On Morto Controller, drag the imported AudioClip into the Scare field.
+4. Save the scene. Test a loss and adjust Volume.
+If you create another new scene afterward, assign your sound again there.
+
+Browser:
+Settings > Choose jumpscare sound accepts your MP3 or WAV for the current
+session. Reloading returns to the included original temporary effect.
+The supplied download still uses the original temporary effect; your MP3 was
+not attached. To permanently embed another sound, replace audio/scare.wav
+with a WAV export and run python3 tools/build.py.
+
+CONTROLS
+Aim mouse + hold F: flashlight. A/D or Left/Right: move. H: hide/leave cover.
+Space: cameras. 1–3: camera feed. P/Escape: pause. R: retry. Mouse controls are
+also available. Unity supports M to mute. Losing focus pauses the game.
+
+ART AND MENU
+The previously shown illustrated room art is retained. The side-yard artwork
+has been edited to show a high, wall-mounted security-camera viewpoint.
+The original menu portrait is retained. The tilted widescreen image is now
+the jumpscare, as requested. Six full-height
+Morto variants match the individual room and camera viewpoints. Progress stars sit under Continue
+in reserved space before the next menu item. All original/edit PNGs and the
+side-yard edit prompt are included in source-art/.
+
+SOURCE / REBUILD
+Browser/: offline Canvas renderer and JavaScript rules.
+Unity/Assets/TheMorto/Runtime/: C# rules, view, input and audio.
+Unity/Assets/TheMorto/Editor/: scene creator and logic checks.
+assets/: runtime textures and source ledger. audio/: original temporary sounds.
+source-art/generated-backgrounds/: PNG sources, including unused originals.
+tools/install_preview_art.py: export preserved PNGs to JPEG (requires Pillow).
+tools/build.py: rebuild the embedded HTML and import package.
+tools/package.py: build the complete ZIP, excluding QA screenshots.
+verification/: model, browser UI and visual checks, with result files.
+UnityVerification/: actual C# model test results.
+
+GITHUB
+Save your generated scene. Commit the Unity project's Assets/ (including all
+.meta files), Packages/, ProjectSettings/, README and Unity .gitignore.
+Ignore Library/, Temp/, Obj/, Logs/, UserSettings/ and build folders.
+
+MENU MUSIC (v1.8)
+Unity: select Morto Controller, drag your imported MP3 into Menu Music. The slot is intentionally empty. Music loops only on the title menu and follows mute/volume. Save the scene.
+HTML: Settings > Menu music; choose MP3/WAV for the current browser session.
+Attention now gains 24 points/second. Lure cooldown is 10 seconds. For existing Unity scenes run The Morto > Apply Balance To Current Scene and save.
+
+Credits button and credits overlay removed from the game menu. Asset attribution remains in ASSET-CREDITS.txt.
+
+v1.8: Attention gain increased 40% to 33.6/second. Speaker has a 70% success chance per valid activation; failure still plays sound and consumes 6% backup with a 10-second cooldown, without moving or delaying Morto. How to Survive shortened.

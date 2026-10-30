@@ -1,0 +1,23 @@
+THE MORTO v1.8
+
+The initial outdoor route still passes every camera before the kitchen.
+Indoor movement is now random between adjacent rooms. After hiding, Morto
+returns to a random outdoor location and waits six seconds plus his approach
+interval, allowing the player's cover recovery to finish.
+
+Monitor backup drains 1.8% per second, up from 1.2%.
+A camera speaker lure costs 6% backup power and has a 10-second cooldown.
+It attracts Morto toward the selected outdoor feed through adjacent locations
+and delays his approach for at least five seconds. It has no effect indoors.
+The speaker tone is synthesized in MortoController.cs / Browser/game.js.
+
+Indoor-only hoof audio, dark rooms, observational flashlight, awareness
+cooldown, full-height location art, tilted jumpscare and menu stars remain.
+Unity defaults can be edited in NightTuning or the scene's Tuning Inspector.
+Apply Balance To Current Scene also sets the new camera/lure defaults.
+
+v1.8: Speaker cooldown stays at 10 seconds. Attention gain increased 18 to 24 per second. Optional empty Menu Music AudioClip on MortoController loops only in Menu phase, uses master volume/mute, stops on starting a night. Browser Settings also accepts session-only menu music.
+
+Credits button and credits overlay removed from the game menu. Asset attribution remains in ASSET-CREDITS.txt.
+
+v1.8: Attention gain increased 40% to 33.6/second. Speaker has a 70% success chance per valid activation; failure still plays sound and consumes 6% backup with a 10-second cooldown, without moving or delaying Morto. How to Survive shortened.
