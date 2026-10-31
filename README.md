@@ -22,4 +22,4 @@ See `DESIGN-CHANGES.txt` for changes from the original proposal.
 
 ## Credits
 
-Original character concept and drawings by the project author. AI assistance used for code and additional artwork. FNAF audio belongs to its respective owners.
+Original character concept and drawings. AI assistance used for code and additional artwork. FNAF audio belongs to its respective owners.
